@@ -90,3 +90,11 @@ Removing react-java-mysql-frontend-1 ... done
 Removing react-java-mysql-db-1       ... done
 Removing network react-java-mysql-default
 ```
+
+## View Database
+
+Exec db docker container
+
+mysql -uroot -p -A
+
+select user, host from mysql.user;
